@@ -1,146 +1,96 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body{
     margin: 0px;
+    font-family: sans-serif;
 }
 
-.softlanding1{
-    color: blue;
-    background-image: url(happy-little-boy-and-girl-drinking-tea-and-talking-in-cafe-GD2XBW.jpg);
-    background-size: contain;
+.container {
+    width: 100%;
+}
+
+.intro {
+    height: 100vh;
+    background: url(businessman.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    width: 90%;
-    height: 430px;
-    margin-top: -20px;
-}
-h1.soft {
-height: 100%;
-width: 100%;
-
-}
-h2.say-hello{
-    font-size: 13px;
-    position: relative;
-    left: 460px;
-    top: -585px;
-    
-    
-}
-nav.nav-softlanding{
-    color: black;
-    font-size: 13px;
-    position: relative;
-    left: 100px;
-    top: -500px;
-    width: 80%;
-    margin: 10px;
-    padding: 60px;
-    
-  
-
-}
-.professional-landing{
-    font-size: 15px;
-    position: relative;
-    bottom: 520px;
-    left: 50px;
-}
-.professional{
-    position: relative;
-    top: 100px;
-    left: 80px;
-    font-size: 10px;
-}
-.help-manage{
-    font-size: 20px;
-    position: relative;
-    top: 50px;
-    right: 60px;
-}
-.action-bottom{
-    
-    position: relative;
-    top: 20px;
-    right: -90px;
-    
-    
-    
-}
-.enter-email{
-    width: 20%;
-    border-radius: 55px;
-    height: 30px;
-    border-radius: 25px;
-}
-.submit{
-    width: 10%;
-    border-radius: 55px;
-    height: 30px;
-    position: relative;
-    right: 80px;
-    background-color:rgb(78, 114, 175);
     color: white;
 }
 
-
-
-
-.computerpicture{ 
-    background-color: rgb(104, 126, 126);
-    background-size: contain;
-    font-size: 100px;
-    width: 648px;
-    height: 400px;
-    margin-top: 0px;
-  
-    
- 
-     
+.intro-background {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
-img.computer{
-    
-    height: 200px;
-    width: 40%;
+
+.intro header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.intro .intro-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro .intro-body .intro-container {
+    width: 630px;
+    text-align: center;
+}
+
+.intro .intro-body p {
+    font-size: 20px;
+}
+
+.intro .intro-body h1 {
+    font-size: 50px;
+    margin: 15px 0 50px;
+}
+
+.intro .intro-body button {
+    background-color: #27ca8e;
+    border: 0;
+    padding: 20px 25px;
+    border-radius: 30px;
+    color: white;
+    font-size: 17px;
     position: relative;
-    left: 350px;
-    top: 60px;
-    
-    
+    left: -60px;
 }
-.professional-team{
-    background-color:whitesmoke;
-    background-size: contain;
-    font-size: 100px;
-    width: 648px;
-    height: 400px;
-    margin-top: 0px;
 
+.intro .intro-body input {
+    border: 0;
+    padding: 20px 25px;
+    border-radius: 30px;
+    color: white;
+    font-size: 17px;
 }
-.Choose-and-plan{
-    background-color:grey;
-    background-size: contain;
-    font-size: 100px;
-    width: 648px;
-    height: 400px;
-    margin-top: 0px;
 
+.intro-brand {
+    font-size: 30px;
+    margin-right: 80px;
 }
-.poeple-say{
-    background-color:rgb(219, 186, 186);
-    background-size: contain;
-    font-size: 100px;
-    width: 648px;
-    height: 400px;
-    margin-top: 0px;
-}
-.Say-hello-to-us{
-    background-color:rgb(49, 98, 85);
-    background-size: contain;
-    font-size: 100px;
-    width: 648px;
-    height: 400px;
-    margin-top: 0px;
 
+.intro-nav {
+    font-size: 20px;
+}
+
+.intro-nav a {
+    padding: 0 10px;
+}
+
+.intro-email{
+    font-size: 20px;
+    margin-left: auto;
 }
