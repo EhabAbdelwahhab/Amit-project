@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+.softlanding1{
+    color: blue;
+    background-image: url(happy-little-boy-and-girl-drinking-tea-and-talking-in-cafe-GD2XBW.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 430px;
+    margin-top: -20px;
+}
+h1.soft {
+height: 100%;
+width: 100%;
+
+}
+h2.say-hello{
+    font-size: 13px;
+    position: relative;
+    left: 460px;
+    top: -585px;
+    
+    
+}
+nav.nav-softlanding{
+    color: black;
+    font-size: 13px;
+    position: relative;
+    left: 100px;
+    top: -500px;
+    width: 80%;
+    margin: 10px;
+    padding: 60px;
+    
+  
+
+}
+.professional-landing{
+    font-size: 15px;
+    position: relative;
+    bottom: 520px;
+    left: 50px;
+}
+.professional{
+    position: relative;
+    top: 100px;
+    left: 80px;
+    font-size: 10px;
+}
+.help-manage{
+    font-size: 20px;
+    position: relative;
+    top: 50px;
+    right: 60px;
+}
+.action-bottom{
+    
+    position: relative;
+    top: 20px;
+    right: -90px;
+    
+    
+    
+}
+.enter-email{
+    width: 20%;
+    border-radius: 55px;
+    height: 30px;
+    border-radius: 25px;
+}
+.submit{
+    width: 10%;
+    border-radius: 55px;
+    height: 30px;
+    position: relative;
+    right: 80px;
+    background-color:rgb(78, 114, 175);
+    color: white;
+}
+
+
+
+
+.computerpicture{ 
+    background-color: rgb(104, 126, 126);
+    background-size: contain;
+    font-size: 100px;
+    width: 648px;
+    height: 400px;
+    margin-top: 0px;
+  
+    
+ 
+     
+}
+img.computer{
+    
+    height: 200px;
+    width: 40%;
+    position: relative;
+    left: 350px;
+    top: 60px;
+    
+    
+}
+.professional-team{
+    background-color:whitesmoke;
+    background-size: contain;
+    font-size: 100px;
+    width: 648px;
+    height: 400px;
+    margin-top: 0px;
+
+}
+.Choose-and-plan{
+    background-color:grey;
+    background-size: contain;
+    font-size: 100px;
+    width: 648px;
+    height: 400px;
+    margin-top: 0px;
+
+}
+.poeple-say{
+    background-color:rgb(219, 186, 186);
+    background-size: contain;
+    font-size: 100px;
+    width: 648px;
+    height: 400px;
+    margin-top: 0px;
+}
+.Say-hello-to-us{
+    background-color:rgb(49, 98, 85);
+    background-size: contain;
+    font-size: 100px;
+    width: 648px;
+    height: 400px;
+    margin-top: 0px;
+
+}
