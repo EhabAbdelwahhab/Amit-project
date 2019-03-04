@@ -96,92 +96,60 @@ body{
 }
 /* begining style computer page */
 
-.computer-background{
-    background-color: whitesmoke;
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-         
-
+.computer-picture {
+    display: flex;
+    padding: 60px;
 }
 
 .computer-picture header{
-    
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    height: 80px;
     width: 100%;
-    padding-top: 100px;
-    padding-left: 60px; 
-    
 }
+
 .computer-title{
     font-size: 43px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
+
 .computer-nav {
     list-style-type:none;
     display: flex;
     justify-content: flex-start;
-    padding-top: 90px;
     font-size: 20px;
     padding-left: 0;
-  
-    
- 
 }
 
 .computer-nav li{
-    
    padding-right: 40px; 
-   
-   
-   
-
 }
-.computer-body{
-    
-    margin-top: 240px;
-    margin-left: 60px;
-    width: 540px;
 
+.computer-body{    
+    margin-top: 60px;
 }
+
 .first-paragraph{
     height: 100px;
     margin-bottom: 10px;
-
 }
+
 .first-paragraph h2{
-    padding-bottom: 10px; 
-   
+    padding-bottom: 10px;    
 }
+
 .second-paragraph{
-
-    width: 120%;
 }
-
-
 
 .second-paragraph h2{
-
-    
     padding-bottom: 10px; 
-
-
 }
 
 .computer-image{
-   
-    
-
+    margin-left: 40px;
 }
+
 .computer-image img {
-    width: 95%;
-    height: 480px;
-    margin-left: 660px;
-    margin-top: -476px;
-    
+    width: 450px;
 }
-
-
-
