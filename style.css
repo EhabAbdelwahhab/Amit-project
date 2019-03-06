@@ -321,3 +321,70 @@ margin-bottom: 60px;
     border-bottom: 1px solid black;
      
  }
+ .end-container header{
+    font-size: 25px;
+    text-align: center;
+    padding: 40px 0;
+ }
+
+ .input-group form{
+     display: flex;
+     margin-bottom: 30px;
+ }
+
+ .input-group input {
+    width: 33.3%;
+    display: inline-block;
+    border: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid grey;
+    margin: 0px 10px;
+ }
+
+ .input-group input.button {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 0;
+    border-radius: 30px;
+    font-size: 25px;
+ }
+
+.text-body textarea {
+     border: 0;
+     border-bottom: 1px solid grey;
+     width: 100%;
+     margin: 0px 10px;
+     height: 200px;
+     outline: 0;
+     margin-bottom: 100px;
+ }
+
+ .text-body label {
+     color: grey;
+     margin: 0 10px;
+ }
+
+
+ .end-container {
+     width: 1280px;
+     margin: 0 auto;
+ }
+
+ .end-container footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+ }
+
+ .end-container .icons{
+    display: flex;
+    align-items: center;
+}
+
+.end-container .icons img{
+    width: 20px;
+    margin: 0 10px;
+
+}
