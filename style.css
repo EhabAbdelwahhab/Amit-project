@@ -248,6 +248,21 @@ body{
      padding: 20px;
 
  }
+ .dots{
+    display: flex;
+   justify-content: center
+ }
+ .dots div{
+     margin: 7px;     
+     background-color:  white;
+     border-radius: 50%;
+     width: 10px;
+     height: 10px; 
+ }
+
+
+
+
 
  .plan-section{
 background-color: whitesmoke;
@@ -322,7 +337,7 @@ margin-bottom: 60px;
      
  }
  .end-container header{
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     padding: 40px 0;
  }
